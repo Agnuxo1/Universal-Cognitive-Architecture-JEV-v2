@@ -1,0 +1,15 @@
+{
+  "models": [
+    "YOUR_LIGHTWEIGHT_MODEL_ID",
+    "YOUR_ESCALATION_MODEL_ID"
+  ],
+  "limits": {
+    "max_calls": 4,
+    "max_seconds": 240,
+    "max_observed_tokens": 30000,
+    "max_context_chars": 8000
+  },
+  "codex": {
+    "timeout": 120
+  }
+}

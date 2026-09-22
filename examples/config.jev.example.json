@@ -1,0 +1,23 @@
+{
+  "models": [
+    "YOUR_LIGHTWEIGHT_MODEL_ID",
+    "YOUR_ESCALATION_MODEL_ID"
+  ],
+  "limits": {
+    "max_calls": 5,
+    "max_seconds": 300,
+    "max_context_chars": 8000
+  },
+  "codex": {
+    "timeout": 120
+  },
+  "jev": {
+    "connector": [
+      "C:/path/to/JEV/.venv/Scripts/python.exe",
+      "-m",
+      "jev_orchestrator.connection"
+    ],
+    "cwd": "C:/path/to/JEV",
+    "timeout": 45
+  }
+}

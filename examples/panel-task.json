@@ -1,0 +1,20 @@
+{
+  "objective": "Compare two-nozzle shell/core printing with a single-nozzle baseline. Give a short experimental plan with sections Hypothesis, Measurements, Limitations. Do not claim measured savings.",
+  "operation": "model",
+  "collaboration": "thinktank",
+  "context": "No experimental results are available. Compare matched parts and material, measure total time including changes and waste.",
+  "checks": [
+    {
+      "kind": "contains",
+      "value": "Hypothesis"
+    },
+    {
+      "kind": "contains",
+      "value": "Measurements"
+    },
+    {
+      "kind": "contains",
+      "value": "Limitations"
+    }
+  ]
+}

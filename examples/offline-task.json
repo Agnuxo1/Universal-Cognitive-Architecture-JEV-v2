@@ -1,0 +1,21 @@
+{
+  "objective": "Measure the UTF-8 text reproducibly",
+  "operation": "text_stats",
+  "input": "HUEVOS: cáscara y núcleo",
+  "checks": [
+    {
+      "kind": "json_equals",
+      "path": [
+        "words"
+      ],
+      "value": 4
+    },
+    {
+      "kind": "json_equals",
+      "path": [
+        "utf8_bytes"
+      ],
+      "value": 26
+    }
+  ]
+}

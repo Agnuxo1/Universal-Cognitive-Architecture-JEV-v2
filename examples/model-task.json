@@ -1,0 +1,15 @@
+{
+  "objective": "Return exactly the word READY and nothing else. Do not use tools.",
+  "operation": "model",
+  "collaboration": "single",
+  "context": "This is a minimal connectivity test, not a factual reasoning benchmark.",
+  "checks": [
+    {
+      "kind": "contains",
+      "value": "READY"
+    },
+    {
+      "kind": "nonempty"
+    }
+  ]
+}

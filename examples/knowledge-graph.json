@@ -1,0 +1,32 @@
+{
+  "entry": "a1",
+  "nodes": {
+    "a1": {
+      "label": "Objective",
+      "content": "Improve printing time while preserving acceptable shell quality. This is a proposed experiment.",
+      "edges": [
+        "b1",
+        "c1"
+      ]
+    },
+    "b1": {
+      "label": "Evidence",
+      "content": "No measured HUEVOS results yet. Record total time, waste and quality with a matched baseline.",
+      "edges": [
+        "d1"
+      ]
+    },
+    "c1": {
+      "label": "Constraints",
+      "content": "Two fixed nozzles have offsets; simultaneous deposition requires compatible trajectories.",
+      "edges": [
+        "d1"
+      ]
+    },
+    "d1": {
+      "label": "Acceptance",
+      "content": "Report observations and uncertainty; do not infer speedup without measurements.",
+      "edges": []
+    }
+  }
+}

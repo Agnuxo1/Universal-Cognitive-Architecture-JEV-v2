@@ -1,0 +1,10 @@
+{
+  "action": "single",
+  "confidence": 1.0,
+  "provider_model": "jev-1.13.0",
+  "usage": {
+    "input_tokens": 422,
+    "output_tokens": 50,
+    "cached_tokens": 0
+  }
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cognitive-architecture-jev"
+version = "2.0.0"
+description = "Evidence-gated graph workflows with optional JEV routing and bounded model workers"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Francisco Angulo de Lafuente"}]
+dependencies = []
+
+[project.scripts]
+cognitive = "cognitive_architecture.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

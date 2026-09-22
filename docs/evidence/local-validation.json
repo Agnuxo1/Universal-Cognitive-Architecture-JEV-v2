@@ -1,0 +1,9 @@
+{
+  "tests_passed": 52,
+  "python": "3.13",
+  "clean_wheel_install": true,
+  "out_of_tree_cli": true,
+  "readme_local_links": "all present",
+  "live_jev_codex": "accepted",
+  "source_history_preserved": true
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "version": "2.0.0",
+  "run_id": "bd79d28771e2432e95be0551452356c8",
+  "status": "accepted",
+  "output": "READY",
+  "checks": [
+    {
+      "index": 0,
+      "kind": "contains",
+      "passed": true
+    },
+    {
+      "index": 1,
+      "kind": "nonempty",
+      "passed": true
+    }
+  ],
+  "cache_hit": false,
+  "calls": 2,
+  "observed_tokens": 19208,
+  "usage_complete": true,
+  "unknown_usage_calls": 0,
+  "models": [
+    "gpt-5.6-luna"
+  ],
+  "elapsed_seconds": 9.944349,
+  "events": [
+    {
+      "event": "task_validated"
+    },
+    {
+      "event": "call_reserved",
+      "kind": "router",
+      "call": 1
+    },
+    {
+      "event": "jev_route",
+      "action": "single"
+    },
+    {
+      "event": "call_reserved",
+      "kind": "worker",
+      "call": 2
+    }
+  ]
+}
