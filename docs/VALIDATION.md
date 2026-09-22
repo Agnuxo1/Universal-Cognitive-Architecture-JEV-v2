@@ -43,4 +43,4 @@ Nine historical blobs and release text files were screened for recognizable key
 formats without printing potential values; none were found. This check is not a
 proof of absence of every kind of private data. No local JEV source tree, credential
 store, existing telemetry, private opportunities or personal runtime cache was copied.
-The new repository retains the source repository's private visibility.
+The new repository was initially private and is now public at the owner's explicit request. Anonymous access to the repository, all four images and the v2.0.0 release assets has been verified. The original repository remains unchanged.

@@ -1,0 +1,6 @@
+{
+  "historical_blobs_scanned": 50,
+  "recognizable_secret_findings": [],
+  "limitations": "Pattern-based check; not a proof that arbitrary confidential data is absent.",
+  "publication": "Public visibility explicitly authorized; anonymous repository, release and image access verified."
+}
