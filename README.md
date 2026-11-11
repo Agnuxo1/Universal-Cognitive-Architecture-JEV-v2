@@ -21,6 +21,10 @@ OS research repository. It preserves the complete Git ancestry, original HTML
 and PDF artifacts, license, and a byte-identical copy of the original README.
 The earlier repository remains untouched.
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> The runtime handles allowlisted deterministic tasks without model calls and reuses accepted results through an integrity-checked cache. Bounded graph retrieval, shared call caps and gated escalation help control redundant computation compared with repeatedly sending every step to an LLM. The <a href="#what-is-implemented">implemented mechanisms</a> provide explicit resource controls; savings depend on the task mix and cache reuse.</sub>
+<!-- impact-note:end -->
+
 ## Start in one minute — no credentials required
 
 Requires Python 3.11 or later. The runtime has **no third-party dependencies**.
